@@ -1,0 +1,112 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+.logo{
+    display:flex;
+    flex-direction:row;
+    position: relative;
+    left:-55px;
+}
+.nav{
+    position:relative;
+    top:8px;
+    margin-left:30px;
+}
+.tm{
+position:relative;
+font-family: Plus Jakarta Sans;
+font-size: 4.15px;
+font-weight: 800;
+line-height: 5.23px;
+text-align: left;
+width: 9px;
+height: 5px;
+left:2px;
+top:8px;
+gap: 0px;
+opacity: 0px;
+}
+.download{
+    position:relative;
+top: -7px;
+left:225px;
+border-radius: 4px 0px 0px 0px;
+}
+.star-1{
+position: relative;
+top:10px;
+left:150px
+}
+.star-2{
+    position: relative;
+    top:50px;
+    left: 40px;
+    gap:0px;
+    
+}
+.over {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top:100px;
+}
+.left-side{
+    margin-left: -35px;
+}
+
+.small,.button{
+    margin-top: 30px;
+}
+.overs {
+    position:relative; 
+    left:-300px;
+}
+.bold{
+    z-index: 1;
+}
+.phones{
+    position: absolute;
+}
+.phone-3{
+    position:absolute;
+    top:-160px;
+    left: -60px;
+    z-index: 1;
+}
+.phone-2{
+    position:absolute;
+    left:70px;
+    top:-90px;
+    z-index: 1;
+}
+.phone-1{
+    position: absolute;
+    left:200px;
+    top:-25px;
+    z-index: 1;
+}
+.ellipse{
+    position: absolute;
+    top:-163px;
+    left:15px;
+}
+.star-3{
+    position: absolute;
+    top:470px;
+    left:130px;
+}
+.mesh-gradient {
+    width: 250px;
+    height: 240px;
+    background: radial-gradient(circle at 30% 30%, rgba(253, 229, 152, 0.8), transparent 70%),
+                radial-gradient(circle at 70% 70%, rgba(255, 85, 85, 0.8), transparent 70%);
+    filter: blur(25px);
+    border-radius: 50%;
+    position:relative;
+    top:-400px;
+    left:140px;
+    z-index: 0;
+}
+
