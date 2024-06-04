@@ -109,4 +109,15 @@ left:150px
     left:140px;
     z-index: 0;
 }
-
+.mesh-gradient1 {
+    width: 250px;
+    height: 240px;
+    background: radial-gradient(circle at 30% 30%, rgba(253, 229, 152, 0.8), transparent 70%),
+                radial-gradient(circle at 70% 70%, rgba(255, 85, 85, 0.8), transparent 70%);
+    filter: blur(25px);
+    border-radius: 50%;
+    position:relative;
+    top:-60px;
+    left:930px;
+    z-index: 0;
+}
